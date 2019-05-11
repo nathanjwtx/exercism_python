@@ -43,6 +43,8 @@ class RobotNameTest(unittest.TestCase):
         # Call the generator again
         robot.reset()
         name2 = robot.name
+        print(name)
+        print(name2)
         self.assertNotEqual(name, name2)
         self.assertRegex(name2, self.name_re)
 
