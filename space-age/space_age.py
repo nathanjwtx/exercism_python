@@ -28,4 +28,3 @@ class SpaceAge(object):
 
     def on_earth(self):
         return round(self.seconds / (1 * self.earth), 2)
-    
